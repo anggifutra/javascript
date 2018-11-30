@@ -1,0 +1,16 @@
+function queue(){
+	var strings = ["joko membeli ikan","andi membakar sampah","dian menebang pohon"];
+  
+  //add an array and shift the queue
+  strings.splice(0,0,"dudo makan bakso");
+	for (var i=0;i<strings.length;i++){
+	document.write(strings[i]+"<br>");
+	}
+	document.write("-------------------"+"<br>");
+  
+  //put an array and shift the queue
+	strings.splice(0,1);
+	for (var i=0;i<strings.length;i++){
+	document.write(strings[i]+"<br>");
+	}
+}
